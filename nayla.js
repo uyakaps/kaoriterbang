@@ -148,12 +148,7 @@ fetchJson(`https://api.waifu.pics/sfw/${command}`).then(x => {
 nayla.sendMessage(from, {image:{url:x.url}, caption:"😄", mentions:[sender]},{quoted:nay1})})
 break
 
-case 'waifu': case 'blowjob': case 'trap': case 'neko':
-if (cekUser("id", sender) == null) return reply("Kamu belum terdaftar di database bot, Silahkan daftar terlebih dahulu, gunakan command #daftar")
-reply("[❗] SEDANG DIPROSES")
-fetchJson(`https://api.waifu.pics/nsfw/${command}`).then(x => {
-nayla.sendMessage(from, {image:{url:x.url}, caption:"😄", mentions:[sender]},{quoted:nay1})})
-break
+
 case 'slip':
 if (cekUser("id", sender) == null) return reply("Kamu belum terdaftar di database bot, Silahkan daftar terlebih dahulu, gunakan command #daftar")
 let x1 = await fetchJson("https://api.adviceslip.com/advice")
