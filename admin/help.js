@@ -64,7 +64,7 @@ return `╔════[ *${namabot}* ]═══
 ╔════[ *ANIME(SFW)* ]═══${animeSfw}
 ╚════════════════
 ▻►▻►▻►▻►▻►▻►▻►▻►
-╔════[ *ANIME(NSFW)* ]═══${animeNsfw}
+╔════[ *ANIME* ]═══${animeNsfw}
 ╚════════════════
 ▻►▻►▻►▻►▻►▻►▻►▻►
 ╔════[ *RANDOM* ]═══${Random}
